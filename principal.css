@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+
+/*************** Fondo ****************/
+
+  body{
+    background-color: #101817;
+    background-image: url("images/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+  hr{
+    color: #6d0001;
+    border: 3px dashed;
+  }
+
+/*************** Cabecera ***************/
+
+  #barra_navegacion{
+
+    background-color: #1e2728;
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    position: fixed;
+
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+    padding-bottom: 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    
+    z-index: 10;
+    top: 0;
+  }
+
+  .logo{
+    display: inline-block;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo_titulo{
+    background-color: #b1b0b0;
+    padding: 25px;
+    margin-top: 75px;
+    border: 6px dashed; black;
+    width: 100%;
+  }
+
+  header{
+  padding-bottom: 0px;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  a {
+    color: ghostwhite;
+    text-decoration: none;
+  }
+
+  #box_nav{
+    display: inline-block;
+  }
+
+  .button_nav{
+    color: ghostwhite;
+  }
+
+  .button_nav:hover{
+
+    background-color: #4e8489;
+    padding: 6px;
+    color: #0e1312;
+    transition: 0.6s;
+  }
+
+/*************** Introducción ***************/
+  
+  .principal{
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .title_game{
+    margin-top: 60px;
+    padding: 25px;
+    width: 100%;
+  }
+
+  .img_game{
+    padding-bottom: 0px;
+    width: 100%;  
+  }
+
+
+  .box_lema{
+    display: flex;
+    background-color: #1e2728;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bucket{
+    width: 60px;
+    margin-right: 30px;
+  }
+
+/*************** Txt & Section ***************/
+  
+  section{
+    position: relative;
+  }
+
+  .cabecera_section{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    color: ghostwhite;
+  }
+
+  p{
+    color: ghostwhite;
+  }
+
+  h1{
+    color: #6d0001;
+    width: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  h3{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+  }
+
+/*************** Campaña ***************/
+  .campaña_nav{
+    display: block;
+    top: 6rem;
+    float: right;
+    position: sticky !important;
+  }
+
+  .campaña_nav div{
+    padding: 5px;
+  }
+
+  .box_campaña{
+    display: flex;
+    justify-content: center;
+  }
+
+  .box_contents{
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    border-radius: 8px;  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:81%;
+  }
+
+  .campaña_content{
+    
+    padding-top: 72px;
+    margin-top: -72px;
+  }
+
+  .box_p{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+  }
+
+  .box_p ul{
+    border: 4px;
+    border-color: ghostwhite;
+  }
+
+  #musica{
+    text-align: center;
+  }
+
+
+
+/*************** Personajes ***************/
+
+  .txt_select{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 25px;
+
+    background-color: grey;
+  }
+
+  .txt_select button{
+
+    background-color: lightcyan;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;  
+  }
+
+  .img_personajes{
+    
+    display: flex;
+    width: 100%;
+    height: 420px;
+    background-color: #1e2728;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img_personajes img{
+    display: flex;
+    height: 100%;
+    padding: 2px;
+  }
+
+/*************** FAQ  ***************/
+  
+  .faq_content{
+
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .faq_box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    width: 100%;
+
+  }
+
+  .faq_box h3{
+    cursor: pointer;
+    margin-top: 0px;
+    width: 600px;
+    background-color: ghostwhite;
+  }
+
+  .faq_box p{
+    width: 600px;
+    margin-top: 12px;
+  }
+ 
+/*************** Comentarios ***************/
+  
+  .box_comments{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+
+  }
+
+  #container div{
+    width: 900px;
+    color: ghostwhite;
+    background-color: black;
+    border: 3px solid ghostwhite;
+    margin:12px;
+
+  }
+
+  .submit{
+    display: inline-block;
+    margin-left: 12px;
+  }
+
+
+/*************** Footer ***************/
+
+  footer{
+
+    background-image: url("images/rio.png");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: auto;
+    
+  }
+
+  #diclaimer p{
+
+    padding: 60px;
+    padding-top: 180px;
+
+    font-weight: 400;
+    -webkit-text-stroke: 0.1px red;
+    color: black;
+  }
+

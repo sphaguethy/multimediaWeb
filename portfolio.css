@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+
+/*************** Fondo ****************/
+
+  body{
+    background-color: #101817;
+    background-image: url("images/fondo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+  hr{
+    color: #6d0001;
+    border: 3px dashed;
+  }
+
+/*************** Cabecera ***************/
+
+  #barra_navegacion{
+
+    background-color: #1e2728;
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    position: fixed;
+
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+    padding-bottom: 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    
+    z-index: 10;
+    top: 0;
+  }
+
+  .logo{
+    display: inline-block;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo_titulo{
+    background-color: #b1b0b0;
+    padding: 25px;
+    margin-top: 75px;
+    border: 6px dashed; black;
+    width: 100%;
+  }
+
+  header{
+  padding-bottom: 0px;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  a {
+    color: ghostwhite;
+    text-decoration: none;
+  }
+
+  #box_nav{
+    display: inline-block;
+  }
+
+  .button_nav{
+    color: ghostwhite;
+  }
+
+  .button_nav:hover{
+
+    background-color: #4e8489;
+    padding: 6px;
+    color: #0e1312;
+    transition: 0.6s;
+  }
+
+  /*************** TXT ****************/
+  section{
+    padding-top: 30px ;
+    text-align: center;
+    width: 100%;
+
+    display: inline-block;
+    color: ghostwhite;
+  }
+
+  #sobremi{
+    display: inline-block;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .sopha{
+    padding: 12px;
+    margin-left: 150px;
+  }
+  
+
+  /*************** Contacto ***************/
+
+  .box_contact{
+    display: inline-block;
+  }
+
+  #gif{
+    display: inline-block;
+    width: 50%;
+  }
